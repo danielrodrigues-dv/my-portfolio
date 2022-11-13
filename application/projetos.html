@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--css-->
+  <link rel="stylesheet" href="./src/assets/css/global.css" />
+  <link rel="stylesheet" href="./src/assets/css/bootstrap/css/boostrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="./src/assets/js/boostrap/boostrap.bundle.min.js"></script>
+  <!--css-->
+  <link rel="shortcut icon" href="./src/assets/img/favicon.ico" type="image/x-icon">
+  <title>daniel-dv | Projetos</title>
+</head>
+
+<body style="background-color: #121214;" class="tooltip-demo">
+  <div>
+    <header class="d-flex justify-content-center py-3" style="background-color: #202024;">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="./index.html" class="nav-link" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="./projetos.html" class="nav-link active">Projetos</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <main class="container-fluid">
+         <!--Inicio Mobile Menu-->
+    <div class="row">
+
+      <div class="col" style="background-color: #121214; height: 100%; border-left: 2px solid rgb(34, 33, 33);">
+        <div class="container-fluid mt-4">
+          <div id="menuslide">
+            <a class="btn mb-3" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+              aria-controls="offcanvasExample" style="background-color: #202024; color: white;">
+              MENU
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+              aria-labelledby="offcanvasExampleLabel" style="background-color: #121214;">
+              <div class="offcanvas-header" style="border-bottom: 2px solid rgb(104, 104, 104); color: white;">
+                <h5 class="offcanvas-title" id="offcanvasExampleLabel">Lista menu</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <div>
+
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample" style="list-style: none;">
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" style=" color: #ffffff;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                          aria-controls="flush-collapseOne">
+                          LINGUAGEM <span class="badge text-bg-secondary" style="margin-left: 20px;">6</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample" style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <li class="mb-2 accordionEffects">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <input class="form-check-input TypeScriptDefault" type="checkbox" value="typescripa"
+                                  onclick="articleListmobile(this.value)" id="TypeScriptDefault">
+                                TypeScript
+                              </div>
+                              <div><label class="form-check-label" for="TypeScriptDefault"><span
+                                    class="badge text-bg-secondary" style="margin-left: 20px;">0</span></label></div>
+                            </div>
+                          </li>
+                          <li class="mb-2 accordionEffects">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <input class="form-check-input JavaScriptDefault" type="checkbox" value="javascripta"
+                                  onclick="articleListmobile(this.value)" id="JavascriptDefault">
+                                JavaScript
+                              </div>
+                              <div><label class="form-check-label" for="JavascriptDefault"><span
+                                    class="badge text-bg-secondary" style="margin-left: 20px;">0</span></label></div>
+                            </div>
+                          </li>
+                          <li class="mb-2 accordionEffects">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <input class="form-check-input AngularDefault" type="checkbox" value="angulara"
+                                  onclick="articleListmobile(this.value)" id="AngularDefault">
+                                Angular
+                              </div>
+                              <div><label class="form-check-label" for="AngularDefault"><span
+                                    class="badge text-bg-secondary" style="margin-left: 20px;">0</span></label></div>
+                            </div>
+                          </li>
+                          <li class="mb-2 accordionEffects">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <input class="form-check-input PythonDefault" type="checkbox" value="pythona"
+                                  onclick="articleListmobile(this.value)" id="PythonDefault">
+                                Python
+                              </div>
+                              <div><label class="form-check-label" for="PythonDefault"><span
+                                    class="badge text-bg-secondary" style="margin-left: 20px;">0</span></label></div>
+                            </div>
+                          </li>
+                          <li class="mb-2 accordionEffects">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <input class="form-check-input ReactDefault" type="checkbox" value="react"
+                                  onclick="articleListmobile(this.value)" id="ReactDefault">
+                             React
+                              </div>
+                              <div><label class="form-check-label" for="ReactDefault"><span
+                                    class="badge text-bg-secondary" style="margin-left: 20px;">0</span></label></div>
+                            </div>
+                          </li>
+                          <li class="mb-2 accordionEffects">
+                            <div class="d-flex justify-content-between">
+                              <div>
+                                <input class="form-check-input" type="checkbox" value="cm"
+                                  onclick="articleListmobile(this.value)" id="CDefault">
+                                C
+                              </div>
+                              <div><label class="form-check-label" for="CDefault"><span
+                                    class="badge text-bg-secondary" style="margin-left: 20px;">0</span></label></div>
+                            </div>
+                          </li>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--Fim Mobile Menu-->
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Iinicio geral-->
+          <div id="geral">
+            <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+              <div class="col">
+                <div class="card" style="background-color: #202024; color: white">
+                  <img src="./src/assets/img/Angular.png" class="card-img-top" alt="img-angular">
+                  <div class="card-body">
+                    <h5 class="card-title">Registre seus momentos</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <div class="d-grid justify-content-end">
+                        <div class="row">
+                          <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                        <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-footer text-muted">
+                    22-09-2022
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card" style="background-color: #202024; color: white">
+                  <img src="./src/assets/img/JavaScript.png" class="card-img-top" alt="img-javascript">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                      <div class="d-grid justify-content-end">
+                        <div class="row">
+                          <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                        <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-footer text-muted">
+                    22-09-2022
+                  </div>
+                </div>
+              </div>
+           
+              <div class="col">
+                <div class="card" style="background-color: #202024; color: white">
+                  <img src="./src/assets/img/Python.png" class="card-img-top" alt="img-python">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                      <div class="d-grid justify-content-end">
+                        <div class="row">
+                          <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                        <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-footer text-muted">
+                    22-09-2022
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="background-color: #202024; color: white">
+                  <img src="./src/assets/img/c.png" class="card-img-top" alt="img-c">
+                  <div class="card-body">
+                    <h5 class="card-title">Software de Cadastro</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                      <div class="d-grid justify-content-end">
+                        <div class="row">
+                          <div class="col"><a href="https://github.com/danielrodrigues-dv/Software-em-C" target="_blank" class="btn btn-outline-primary">Documentação</a></div>
+                        <div class="col"><a href="#" target="_blank" class="btn btn-outline-success disabled">Visualizar</a></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-footer text-muted">
+                    22-09-2022
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card" style="background-color: #202024; color: white">
+                  <img src="./src/assets/img/React.png" class="card-img-top" alt="img-react">
+                  <div class="card-body">
+                    <h5 class="card-title">Calculadora</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                      additional content. This content is a little bit longer.</p>
+                      <div class="d-grid justify-content-end">
+                        <div class="row">
+                          <div class="col"><a href="https://github.com/danielrodrigues-dv/Calculadora-React" target="_blank" class="btn btn-outline-primary">Documentação</a></div>
+                          <div class="col"><a href="https://danielrodrigues-dv-calculadora-react-dv.netlify.app" target="_blank" class="btn btn-outline-success">Visualizar</a></div>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="card-footer text-muted">
+                    22-09-2022
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <!--FIm geral-->
+          <div class="row row-cols-1 row-cols-md-3 row-cols-lg-3 g-4">
+            <div class="col angular" style="display: none;">
+              <div class="card" style="background-color: #202024; color: white">
+                <img src="./src/assets/img/Angular.png" class="card-img-top" alt="img-angular">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                    <div class="d-grid justify-content-end">
+                      <div class="row">
+                        <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                      <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                  22-09-2022
+                </div>
+              </div>
+            </div>
+            <div class="col javascript" style="display: none;">
+              <div class="card" style="background-color: #202024; color: white">
+                <img src="./src/assets/img/JavaScript.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                    <div class="d-grid justify-content-end">
+                      <div class="row">
+                        <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                      <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                  22-09-2022
+                </div>
+              </div>
+            </div>
+       
+   
+ 
+            <div class="col typescript" style="display: none;">
+              <div class="card" style="background-color: #202024; color: white">
+                <img src="./src/assets/img/TypeScript.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                    <div class="d-grid justify-content-end">
+                      <div class="row">
+                        <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                      <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                  22-09-2022
+                </div>
+              </div>
+            </div>
+            <div class="col python" style="display: none;">
+              <div class="card" style="background-color: #202024; color: white">
+                <img src="./src/assets/img/Python.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                    <div class="d-grid justify-content-end">
+                      <div class="row">
+                        <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                      <div class="col"><button class="btn btn-outline-success">Visualizar</button></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                  22-09-2022
+                </div>
+              </div>
+            </div>
+
+            <div class="col CDefault" style="display: none;">
+              <div class="card" style="background-color: #202024; color: white">
+                <img src="./src/assets/img/c.png" class="card-img-top" alt="icon-c">
+                <div class="card-body">
+                  <h5 class="card-title">Software de Cadastro</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                    <div class="d-grid justify-content-end">
+                      <div class="row">
+                        <div class="col"><button class="btn btn-outline-primary">Documentação</button></div>
+                      <div class="col"><button class="btn btn-outline-success disabled">Visualizar</button></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                  22-09-2022
+                </div>
+              </div>
+            </div>
+       
+            <div class="col react" style="display: none;">
+              <div class="card" style="background-color: #202024; color: white">
+                <img src="./src/assets/img/React.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Calculadora</h5>
+                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                    additional content. This content is a little bit longer.</p>
+                    <div class="d-grid justify-content-end">
+                      <div class="row">
+                        <div class="col"><a href="https://github.com/danielrodrigues-dv/Calculadora-React" target="_blank" class="btn btn-outline-primary">Documentação</a></div>
+                        <div class="col"><a href="https://danielrodrigues-dv-calculadora-react-dv.netlify.app" target="_blank" class="btn btn-outline-success">Visualizar</a></div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-footer text-muted">
+                  22-09-2022
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 300px;" id="stapsix"></div>
+  </main>
+
+
+
+
+  <!--Bootstrap 5.2-->
+  <script src="./src/assets/js/global.js"></script>
+  <script src="./src/assets/js/boostrap/popper.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--Bootstrap 5.2-->
+</body>
+
+</html>
