@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+a, a:link{
+text-decoration: none;
+}
+
+.main-content{
+    height: 50vh;
+    position: relative;
+    display: block;
+}
+
+/*Inicio particle fundo*/
+body {
+  background: #222;
+  margin: 0rem;
+  min-height: 100vh;
+  font-family: Futura, sans-serif;
+}
+#canvas, #text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#text {
+  min-height: 100vh;
+  width: 100vw;
+  z-index: 1;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 8vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#text h1 {
+  opacity: 0.9
+}
+/*Fim particle fundo*/
+
+  .accordion-button:focus {
+    box-shadow: none !important;
+  }
+  
+
+  .size-12 { font-size: 12px; }
+  .size-14 { font-size: 14px; }
+  .size-16 { font-size: 16px; }
+  .size-18 { font-size: 18px; }
+  .size-21 { font-size: 21px; }
+  .size-24 { font-size: 24px; }
+  .size-32 { font-size: 32px; }
+  .size-43 { font-size: 43px;}
+  .size-48 { font-size: 48px; }
+  .size-64 { font-size: 64px; }
+  .size-96 { font-size: 96px; }
+
+
+
+  /*Initial block code*/
+  @media only screen and (min-width: 1900px){
+    #icon-bootstrap, #icon-docker, #icon-sass, #icon-selenium, #icon-c, #icon-python{
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 480px){
+    #icon-bootstrap, #icon-docker, #icon-sass, #icon-selenium, #icon-c, #icon-python{
+      display: none;
+    }
+  }
+
+  /*Close block code*/
+
+input[type=text]{
+background-color: rgb(73, 73, 73);
+width: 85%;
+border-radius: 4px;
+padding: 5px;
+padding-left: 10px;
+color: white;
+}
+
+
+/*Inicio Scroll*/
+
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 10px;
+}
+
+
+::-webkit-scrollbar {
+  width: 0.6rem;
+  height: 0.6rem;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar-corner {
+  border: none;
+  background: none;
+}
+
+::-webkit-scrollbar-corner {
+  border: none;
+  background: none;
+}
+
+::-webkit-scrollbar-corner {
+  border: none;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(61, 60, 66);
+  border-radius: 3px;
+  cursor: move;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3D3C42;
+  border-radius: 3px;
+  cursor: move;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #3D3C42;
+  border-radius: 3px;
+  cursor: move;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
+}
+
+/*Final Scroll*/
+
+
+/*Inicio efeito emotion satisfação*/
+.emotion-effect:hover{
+  opacity: 0.8;
+}
+/*Fim efeito emotion satisfação*/
+
+.btn-primary{
+  box-shadow: none !important;
+}
+
+.accordion-button, .accordion-body{
+  background-color: #202024 !important;
+  border: 0px;
+  color: white;
+}
+
+
+
+.accordion-button.collapsed::after {
+  content: "+";
+  color: green;
+  background-image: none !important;
+}
+.accordion-button:not(.collapsed)::after {
+  content: "-";
+  color: green;
+  background-image: none !important;
+  border: 0;
+  box-shadow: 0;
+}
+.accordion-button:not(.collapsed){
+  border: 0;
+  box-shadow: 0;
+}
+.accordionEffects:hover{
+background: rgba(104, 104, 104, 0.26);
+width: 100%;
+border-radius: 2px;
+}
+
+
+.effects-btn-bc:hover{
+  background-color: #323238b9 !important;
+}
+
+.btn-outline-secondary:hover{
+  background: rgb(10, 9, 9) !important;
+}

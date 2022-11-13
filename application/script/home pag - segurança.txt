@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>cv-daniel</title>
+  <!--css-->
+  <link rel="stylesheet" href="./src/assets/css/global.css" />
+  <link rel="stylesheet" href="./src/assets/css/bootstrap/css/boostrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="./src/assets/js/boostrap/boostrap.bundle.min.js"></script>
+  <!--css-->
+</head>
+
+<body style="background-color: #121214;" class="tooltip-demo">
+  <header class="d-flex justify-content-center py-3" style="background-color: #202024;">
+    <ul class="nav nav-pills">
+      <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+    </ul>
+  </header>
+
+  <main style="margin-top: 20px;">
+    <div class="container">
+      <div class="row">
+        <div class="col" id="stapone" style="display: none;">
+          <div class="d-flex justify-content-center" style="height: 100vh; text-align: center;">
+            <div class="d-flex align-items-center">
+              <div class="d-flex flex-column mb-3">
+                <div class="p-2"><img src="./src/assets/img/imgs.png" width="250vh" height="100%" alt="img-daniel"
+                    style="border: 2px solid red; border-radius: 150px;"></div>
+                <div class="p-2">
+                  <h4 style="color: white; padding-top: 20px;">Software Developer</h4>
+                </div>
+                <div class="p-2">
+                  <h5 style="color: rgba(255, 255, 255, 0.541);">Daniel Rodrigues</h5>
+                </div>
+                <button type="button" class="btn btn-outline-secondary"
+                  style="margin-top: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif; border: 2px solid rgb(255, 255, 255);"
+                  onclick="stapone()">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Inicio perfil-->
+
+        <div class="col-lg-4" id="stapthree">
+          <div class="card text-center" style="background-color: #202024;">
+            <img src="./src/assets/img/imgs.png" class="card-img-top mt-4 mb-1" alt="img-perfil"
+              style="border: 2px solid red; border-radius: 150px; width: 155px; margin: auto;">
+            <div class="card-body">
+              <p class="card-text"><h1 style="color: white; font-size: 23px;">Daniel Rodrigues</h1></p>
+              <p class="card-text">
+              <h1 style="font-size: 18px; color: white;">Software Developer | Freelancer</h1>
+              </p>
+            
+              <div class="d-flex justify-content-center" style="color: white;">
+              <div class="d-flex align-items-center">
+                <div class="pe-1 pt-1"><ion-icon name="location-outline"></ion-icon></div>
+                <div><span>São Paulo, SP, Brasil</span></div>
+              </div>
+              </div>
+
+              <div style="color: white;">
+                <hr>
+                [analisar]
+              </div>
+
+            </div>
+          
+
+
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Software Developer</h1>
+                </p>
+                <p class="card-text">Daniel Rodrigues</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Insígnias</h1>
+                </p>
+                <p class="card-text">[Cards Insígnias]</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Minha rede</h1>
+                </p>
+                <p class="card-text">[contatos]</p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Interesses</h1>
+                </p>
+                <p class="card-text">[contatos]</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg" id="stapthree">
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Sobre mim</h1>
+                </p>
+                <p style="color: #c5c5c5dc; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                 [TEXTO]
+                </p>
+                <p style="color: #c5c5c5dc; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                  [TEXTO]
+                </p>
+                <p style="color: #c5c5c5dc; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                  [TEXTO]
+                </p>
+                <p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start" style="color: white;">
+                  <div class="row row-cols-lg-4 row-cols-sm-2">
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3" style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2"><ion-icon name="logo-github"></ion-icon></div>
+                        <div><a href="https://github.com/danielrodrigues-dv" target="_blank" style="color: white;">GitHub</a></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3" style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2"><ion-icon name="logo-linkedin"></ion-icon></div>
+                        <div><a href="https://www.linkedin.com/in/daniel-rodrigues-dv" target="_blank" style="color: white;">Linkedin</a></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3" style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2"><ion-icon name="mail-outline"></ion-icon></div>
+                        <div><a href="https://github.com/danielrodrigues-dv" target="_blank" style="color: white;">E-mail</a></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3" style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2"><ion-icon name="logo-discord"></ion-icon></div>
+                        <div><a href="https://github.com/danielrodrigues-dv" target="_blank" style="color: white;">Discord</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Tecnologias</h1>
+                </p>
+                <div class="d-grid gap-2 d-flex justify-content-md-start">
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-typescript-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="TypScript">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-javascript-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="JavaScript">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-angularjs-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Angular">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-html5-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="HTML5">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-react-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="React">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-c-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="C">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-selenium-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Selenium">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-python-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Python">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-sass-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Sass">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-webpack-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Webpack">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-docker-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Docker">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-bootstrap-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Bootstrap">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-ionico-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Ionic">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-mysql-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Mysql">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-css3-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="CSS3">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-git-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Git">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-jenkins-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Jenkins">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-wordpress-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Wordpress">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-jest-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Jest">
+                  </div>
+                  <div>
+                    <img src="./src/assets/img/icons/icons8-figma-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Figma">
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="col">
+            <div class="card" style="background-color: #202024;">
+              <div class="card-body">
+                <div class="container">
+                  <p class="card-text">
+                  <h1 style="font-size: 25px; color: white;">Tecnologias</h1>
+                  </p>
+                  <p class="card-text">[texto]</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!--Fim perfil-->
+
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+
+    <div style="margin-top: 400px;"></div>
+
+  </main>
+
+
+  <script>
+    // Initialize tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    // Final tooltips
+
+    let resizeReset = function () {
+      w = canvasBody.width = window.innerWidth;
+      h = canvasBody.height = window.innerHeight;
+    }
+
+    const opts = {
+      particleColor: "rgb(200,200,200)",
+      lineColor: "rgb(200,200,200)",
+      particleAmount: 4,
+      defaultSpeed: 1,
+      variantSpeed: 1,
+      defaultRadius: 2,
+      variantRadius: 2,
+      linkRadius: 200,
+    };
+
+    window.addEventListener("resize", function () {
+      deBouncer();
+    });
+
+    let deBouncer = function () {
+      clearTimeout(tid);
+      tid = setTimeout(function () {
+        resizeReset();
+      }, delay);
+    };
+
+    let checkDistance = function (x1, y1, x2, y2) {
+      return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    };
+
+    let linkPoints = function (point1, hubs) {
+      for (let i = 0; i < hubs.length; i++) {
+        let distance = checkDistance(point1.x, point1.y, hubs[i].x, hubs[i].y);
+        let opacity = 1 - distance / opts.linkRadius;
+        if (opacity > 0) {
+          drawArea.lineWidth = 0.5;
+          drawArea.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${opacity})`;
+          drawArea.beginPath();
+          drawArea.moveTo(point1.x, point1.y);
+          drawArea.lineTo(hubs[i].x, hubs[i].y);
+          drawArea.closePath();
+          drawArea.stroke();
+        }
+      }
+    }
+
+    Particle = function (xPos, yPos) {
+      this.x = Math.random() * w;
+      this.y = Math.random() * h;
+      this.speed = opts.defaultSpeed + Math.random() * opts.variantSpeed;
+      this.directionAngle = Math.floor(Math.random() * 360);
+      this.color = opts.particleColor;
+      this.radius = opts.defaultRadius + Math.random() * opts.variantRadius;
+      this.vector = {
+        x: Math.cos(this.directionAngle) * this.speed,
+        y: Math.sin(this.directionAngle) * this.speed
+      };
+      this.update = function () {
+        this.border();
+        this.x += this.vector.x;
+        this.y += this.vector.y;
+      };
+      this.border = function () {
+        if (this.x >= w || this.x <= 0) {
+          this.vector.x *= -1;
+        }
+        if (this.y >= h || this.y <= 0) {
+          this.vector.y *= -1;
+        }
+        if (this.x > w) this.x = w;
+        if (this.y > h) this.y = h;
+        if (this.x < 0) this.x = 0;
+        if (this.y < 0) this.y = 0;
+      };
+      this.draw = function () {
+        drawArea.beginPath();
+        drawArea.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        drawArea.closePath();
+        drawArea.fillStyle = this.color;
+        drawArea.fill();
+      };
+    };
+
+    function setup() {
+      particles = [];
+      resizeReset();
+      for (let i = 0; i < opts.particleAmount; i++) {
+        particles.push(new Particle());
+      }
+      window.requestAnimationFrame(loop);
+    }
+
+    function loop() {
+      window.requestAnimationFrame(loop);
+      drawArea.clearRect(0, 0, w, h);
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        particles[i].draw();
+      }
+      for (let i = 0; i < particles.length; i++) {
+        linkPoints(particles[i], particles);
+      }
+    }
+
+    const canvasBody = document.getElementById("canvas"),
+      drawArea = canvasBody.getContext("2d");
+    let delay = 200, tid,
+      rgb = opts.lineColor.match(/\d+/g);
+    resizeReset();
+    setup();
+  </script>
+  <!--Fundo animado-->
+
+  <!--Bootstrap 5.2-->
+  <script src="./src/assets/js/global.js"></script>
+  <script src="./src/assets/js/boostrap/popper.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--Bootstrap 5.2-->
+
+</body>
+
+</html>

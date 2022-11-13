@@ -1,0 +1,1461 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="./src/assets/img/favicon.ico" type="image/x-icon">
+  <title>daniel-dv | Home </title>
+  <!--css-->
+  <link rel="stylesheet" href="./src/assets/css/global.css" />
+  <link rel="stylesheet" href="./src/assets/css/bootstrap/css/boostrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="./src/assets/js/boostrap/boostrap.bundle.min.js"></script>
+  <!--css-->
+
+  <style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+
+    }
+
+    td,
+    th {
+      padding-bottom: 8px;
+    }
+  </style>
+  <!--Final configuração Table-->
+</head>
+
+<body style="background-color: #121214;" class="tooltip-demo">
+  <div style="display: none;" id="stapfive">
+    <header class="d-flex justify-content-center py-3" style="background-color: #202024;">
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="./index.html" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="./projetos.html" class="nav-link">Projetos</a></li>
+      </ul>
+    </header>
+  </div>
+  <main>
+    <div class="container">
+      <div class="row">
+        <!--Inicio modal page-->
+        <div class="col" id="stapone">
+          <div class="d-flex justify-content-center" style="height: 100vh; text-align: center;">
+            <div class="d-flex align-items-center">
+              <div class="d-flex flex-column mb-3">
+                <div class="p-2"><img src="./src/assets/img/imgs.png" width="250vh" height="100%" alt="img-daniel"
+                    style="border: 2px solid red; border-radius: 150px; box-shadow: 0px 0px 15px 0px rgb(83, 48, 48);">
+                </div>
+                <div class="p-2">
+                  <h4 style="color: white; padding-top: 20px;">Software Developer</h4>
+                </div>
+                <div class="p-2">
+                  <h5 style="color: rgba(255, 255, 255, 0.541);">Daniel Rodrigues</h5>
+                </div>
+                <button type="button" class="btn btn-outline-secondary"
+                  style="margin-top: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif; border: 2px solid rgb(255, 255, 255);"
+                  onclick="stapone()" id="saiba">Saiba mais</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fim modal page-->
+
+        <!--Inicio perfil-->
+        <span style="margin-top: 20px; display: none;" id="stapeight"></span>
+        <div class="col-lg-4" id="stapthree" style="display: none;">
+          <div class="card text-center" style="background-color: #202024;">
+            <img src="./src/assets/img/imgs.png" class="card-img-top mt-4 mb-1" alt="img-perfil"
+              style="border: 2px solid red; border-radius: 150px; width: 155px; margin: auto;">
+            <div class="card-body">
+              <p class="card-text">
+              <h1 style="color: white; font-size: 23px;">Daniel Rodrigues</h1>
+              </p>
+              <p class="card-text">
+              <h1 style="font-size: 18px; color: white;">Software Developer | Freelancer</h1>
+              </p>
+              <div class="d-flex justify-content-center" style="color: white;">
+                <div class="d-flex align-items-center">
+                  <div class="pe-1 pt-1">
+                    <ion-icon name="location-outline"></ion-icon>
+                  </div>
+                  <div><span>São Paulo, SP, Brasil</span></div>
+                </div>
+              </div>
+              <div style="color: white;">
+                <hr>
+                <a href="#">Version 1.0.0</a>
+              </div>
+            </div>
+          </div>
+          <br>
+
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <div class="d-flex justify-content-end"
+                  style="color: #ffffff; z-index: 2; position: relative; margin: -15px;">
+                  <ion-icon name="help" class="size-18"
+                    style="background-color: #29292e; border-radius: 20px; padding: 5px;" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Reconhecimentos">
+                  </ion-icon>
+                </div>
+                <h1 style="font-size: 25px; color: white;">Certificações</h1>
+                </p>
+                <p class="card-text">
+                <div class="d-flex d-grid justify-content-around">
+                  <div id="icon-typescript"><img src="./src/assets/img/icons/Italo.svg" height="72px" width="100%"
+                    alt="img-cisco" srcset="" style="border-radius: 30px;" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="ítalo"></div>
+                  <div id="icon-javascript" style="color: white;"><img src="./src/assets/img/icons/4linux.svg" height="72px" width="100%" alt="img-4linux" srcset="" style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="4linux"></div>
+                  <div id="icon-javascript" style="color: white;"><img
+                    src="./src/assets/img/icons/icons8-cisco-48.svg" height="72px" width="100%" alt="img-cisco"
+                    srcset="" style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="Cisco"></div>
+                  <div id="icon-javascript" style="color: white;"><img
+                    src="./src/assets/img/icons/bradesco.svg" height="72px" width="100%" alt="img-bradesco"
+                    srcset="" style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                    data-bs-custom-class="custom-tooltip" data-bs-title="Bradesco"></div>
+                </div>
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+          <!-- Inicio Modal Certificações -->
+
+          <div class="modal fade" id="exampleModalCertificacoes" tabindex="-1"
+            aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-lg">
+              <div class="modal-content" style="background-color: rgb(27, 27, 27);">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle" style="color: white;">Licenças e certificados
+                  </h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+
+                  <div class="accordion accordion-flush" id="accordionFlushExample">
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid rgb(251, 255, 0);" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                          aria-controls="flush-collapseOne">
+                          <img src="./src/assets/img/icons/Italo.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Análise e Desenvolvimento de Sistemas</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample" style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Centro Universitário Ítalo Brasileiro</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Março de 2018 - Junho de 2020 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://italo.com.br" target="_blank">www.italo.com.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingSixteen">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseSixteen" aria-expanded="false"
+                          aria-controls="flush-collapseSixteen">
+                          <img src="./src/assets/img/icons/4linux.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Linux Fundamentals</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSixteen" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSixteen" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- 4linux</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Março de 2022 - Abril de 2022 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://4linux.com.br" target="_blank">www.4linux.com.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                          aria-controls="flush-collapseTwo">
+                          <img src="./src/assets/img/icons/icons8-cisco-48.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">NDG Linux Essentials</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample" style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- 4linux</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Março de 2022 - Abril de 2022 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.netacad.com" target="_blank">www.netacad.com</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                          aria-controls="flush-collapseThree">
+                          <img src="./src/assets/img/icons/Senai.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Tecnologia da Informação e Comunicação</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Senai</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Março de 2022 - Abril de 2022 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.sp.senai.br" target="_blank">www.sp.senai.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingFor">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseFor" aria-expanded="false"
+                          aria-controls="flush-collapseFor">
+                          <img src="./src/assets/img/icons/Dio.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Introdução a Qualidade de Software</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFor" class="accordion-collapse collapse" aria-labelledby="flush-headingFor"
+                        data-bs-parent="#accordionFlushExample" style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Dio</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Agosto de 2021 - Setembro de 2021 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.dio.me" target="_blank">www.dio.me</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingFive">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false"
+                          aria-controls="flush-collapseFive">
+                          <img src="./src/assets/img/icons/icons8-cisco-48.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Cybersecurity Essentials</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Cisco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Abril de 2021 - Maio de 2021 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.cisco.com" target="_blank">www.cisco.com</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingSix">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false"
+                          aria-controls="flush-collapseSix">
+                          <img src="./src/assets/img/icons/icons8-cisco-48.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Introduction to Cybersecurity</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix"
+                        data-bs-parent="#accordionFlushExample" style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Cisco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Abril de 2021 - Maio de 2021 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.cisco.com" target="_blank">www.cisco.com</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingSeven">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false"
+                          aria-controls="flush-collapseSeven">
+                          <img src="./src/assets/img/icons/bradesco.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Web Design</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingSeven" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Fundação Bradesco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Novembro de 2020 - Janeiro de 2021 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.ev.org.br" target="_blank">www.ev.org.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingEight">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false"
+                          aria-controls="flush-collapseEight">
+                          <img src="./src/assets/img/icons/bradesco.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Development web</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseEight" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingEight" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Fundação Bradesco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Novembro de 2018 - Janeiro de 2019 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.ev.org.br" target="_blank">www.ev.org.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingNine">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false"
+                          aria-controls="flush-collapseNine">
+                          <img src="./src/assets/img/icons/bradesco.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">HTML e CSS na prática</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseNine" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingNine" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Fundação Bradesco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Novembro de 2018 - Janeiro de 2019 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.ev.org.br" target="_blank">www.ev.org.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingPop">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapsePop" aria-expanded="false"
+                          aria-controls="flush-collapsePop">
+                          <img src="./src/assets/img/icons/bradesco.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Inovando com CSS</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapsePop" class="accordion-collapse collapse" aria-labelledby="flush-headingPop"
+                        data-bs-parent="#accordionFlushExample" style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Fundação Bradesco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Novembro de 2018 - Janeiro de 2019 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.ev.org.br" target="_blank">www.ev.org.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingEleven">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseEleven" aria-expanded="false"
+                          aria-controls="flush-collapseEleven">
+                          <img src="./src/assets/img/icons/bradesco.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Segurança em Tecnologia da Informação</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseEleven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingEleven" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Fundação Bradesco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Novembro de 2018 - Janeiro de 2019 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.ev.org.br" target="_blank">www.ev.org.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingTwelve">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseTwelve" aria-expanded="false"
+                          aria-controls="flush-collapseTwelve">
+                          <img src="./src/assets/img/icons/bradesco.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Ética no Desenvolvimento de Sistemas</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseTwelve" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingTwelve" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- Fundação Bradesco</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Novembro de 2018 - Janeiro de 2019 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://www.ev.org.br" target="_blank">www.ev.org.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingThirteen">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseThirteen" aria-expanded="false"
+                          aria-controls="flush-collapseThirteen">
+                          <img src="./src/assets/img/icons/Dio.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Analista de Suporte Técnico de Hardware e Rede</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseThirteen" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThirteen" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- DataByte</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Agosto de 2012 - Fevereiro de 2013 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://databyte.com.br" target="_blank">databyte.com.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="accordion-item mb-3" style="border: 0;">
+                      <h2 class="accordion-header" id="flush-headingFifteen">
+                        <button class="accordion-button collapsed"
+                          style="color: #ffffff; padding: 10px; border-left: 2px solid red;" type="button"
+                          data-bs-toggle="collapse" data-bs-target="#flush-collapseFifteen" aria-expanded="false"
+                          aria-controls="flush-collapseFifteen">
+                          <img src="./src/assets/img/icons/Dio.svg" width="35px" height="30px"
+                            alt="icon-cisco"><span class="px-4">Pacote Office</span>
+                        </button>
+                      </h2>
+                      <div id="flush-collapseFifteen" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingFifteen" data-bs-parent="#accordionFlushExample"
+                        style="border-top: 2px solid rgb(104, 104, 104);">
+                        <div class="accordion-body">
+                          <dl>
+                            <dt>Empresa</dt>
+                            <dd>- DataByte</dd>
+                            <dt>Inscrição</dt>
+                            <dd>- Fevereiro de 2013 - Agosto de 2013 - Concluído</dd>
+                            <dt>Detalhes do Curso</dt>
+                            <dd><a href="https://databyte.com.br" target="_blank">databyte.com.br</a></dd>
+                          </dl>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+
+
+                  <br>
+
+                  <div style="color: rgb(255, 255, 255);">
+                    <hr />
+                  </div>
+
+                  <div class="container">
+                    <p>
+                    <h3 style="font-size: 25px; color:white;">Legenda</h3>
+                    </p>
+                    <div class="d-flex row row-cols-lg-3 row-cols-sm-1 mb-3 text-center" style="color:white">
+                      <div class="p-2">
+                        <p style="color: rgb(130, 87, 230)"><strong
+                            style="background-color: yellow; padding-left: 5px; padding-right: 5px;">Amarelo</strong>
+                        </p>
+                        <span style="font-size: 14px; text-align: center;">Cursos de nível Superior.</span>
+                      </div>
+                      <div class="p-2">
+                        <p style="color: rgb(130, 87, 230)"><strong
+                            style="background-color: red; color: white; padding-left: 5px; padding-right: 5px;">Vermelho</strong>
+                        </p>
+                        <span style="font-size: 14px; text-align: center;">Cursos concluídos.</span>
+                      </div>
+                      <div class="p-2">
+                        <p style="color: rgb(130, 87, 230)"><strong
+                            style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); padding-left: 5px; padding-right: 5px;">Branco</strong>
+                        </p>
+                        <span style="font-size: 14px; text-align: center;">Cursos para concluir.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Fim Modal Certificações -->
+
+          <div class="effects-button" style="position: relative; z-index: 12; text-align: center; margin-top: -15px;">
+            <button class="effects-btn-bc" type="button" data-bs-toggle="modal"
+              data-bs-target="#exampleModalCertificacoes"
+              style="background-color: #2e2e2e42; list-style: none; height: 30px; border-radius: 3px; padding-left: 5px; padding-right: 5px;">
+              <li>
+                <ion-icon name="chevron-down-outline" style="color: #0d6efd; font-size: 22px;"></ion-icon>
+              </li>
+              <li style="margin-top: -18px;">
+                <ion-icon name="chevron-down-outline" style="color: #0d6efd; font-size: 22px;"></ion-icon>
+              </li>
+            </button>
+          </div>
+
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <div class="d-flex justify-content-end"
+                  style="color: #ffffff; z-index: 2; position: relative; margin: -15px;">
+                  <ion-icon name="information-outline" class="size-18"
+                    style="background-color: #29292e; border-radius: 20px; padding: 5px;" data-bs-toggle="tooltip"
+                    data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Cursos">
+                  </ion-icon>
+                </div>
+                <h1 style="font-size: 25px; color: white;">Interesses</h1>
+                </p>
+                <div class="d-flex justify-content-around">
+                  <div id="icon-typescript"><a
+                      href="https://www.credly.com/badges/a40a4c71-0130-4420-86f8-b84bc0ca8e0b/embedded"
+                      target="_blank"><img src="./src/assets/img/icons/icons8-aws-48.svg" height="72px" width="100%" alt=""
+                        srcset="" style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Aws"></a></div>
+                  <div id="icon-javascript" style="color: white;"><a
+                      href="https://www.credly.com/badges/3f7fdfc4-9c06-47b7-a5a0-a99fe4f8e621" target="_blank"><img
+                        src="./src/assets/img/icons/icons8-react-48.svg" height="72px" width="100%" alt="" srcset=""
+                        style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="React"></a></div>
+                  <div id="icon-javascript" style="color: white;"><a
+                      href="https://www.credly.com/badges/3f7fdfc4-9c06-47b7-a5a0-a99fe4f8e621" target="_blank"><img
+                        src="./src/assets/img/icons/icons-spring-48.svg" height="72px" width="100%" alt="" srcset=""
+                        style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Spring Boot"></a></div>
+                  <div id="icon-javascript" style="color: white;"><a
+                      href="https://www.credly.com/badges/3f7fdfc4-9c06-47b7-a5a0-a99fe4f8e621" target="_blank"><img
+                        src="./src/assets/img/icons/icons-python-48.svg" height="72px" width="100%" alt="" srcset=""
+                        style="border-radius: 30px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                        data-bs-custom-class="custom-tooltip" data-bs-title="Python"></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <!-- Button trigger modal -->
+                <div class="d-grid gap-2 mt-3 mb-3">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    DAR FEEDBACK
+                  </button>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                  aria-hidden="true" style="background-color: rgba(0, 0, 0, 0.581);">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content" style="background-color: rgb(32, 32, 36); color: white;">
+                      <div class="modal-header border-0">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                          aria-label="Close" value="emoje" onclick="satisfacao(this.value)"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="text-center">
+                          <h5>Sua opinião gera evolução!</h5>
+                          <p style="font-size: 24px;"><strong>Como está sendo a sua experiência com a
+                              plataforma?</strong></p>
+                          <div class="d-grid d-flex justify-content-center">
+                            <div class="pe-4">
+                              <button style="border-radius: 150px; background-color: #bababa7d;" value="emoja"
+                                onclick="satisfacao(this.value)" id="emotion-effect-emoja" class="emotion-effect"><img
+                                  src="./src/assets/img/4.png" height="50px" alt="" srcset=""
+                                  style="border-radius: 150px;"></button>
+                            </div>
+                            <div class="pe-4">
+                              <button style="border-radius: 150px; background-color: #bababa7d;" class="emotion-effect"
+                                value="emojb" id="emotion-effect-emojb" onclick="satisfacao(this.value)"
+                                class="emotion-effect"><img src="./src/assets/img/3.png" height="50px" alt=""
+                                  srcset=""></button>
+                            </div>
+                            <div class="pe-4">
+                              <button style="border-radius: 150px; background-color: #bababa7d;" class="emotion-effect"
+                                value="emojc" id="emotion-effect-emojc" onclick="satisfacao(this.value)"
+                                class="emotion-effect"><img src="./src/assets/img/2.png" height="50px" alt=""
+                                  srcset=""></button>
+                            </div>
+                            <div class="pe-4">
+                              <button style="border-radius: 150px; background-color: #bababa7d;" class="emotion-effect"
+                                value="emojd" id="emotion-effect-emojd" onclick="satisfacao(this.value)"
+                                class="emotion-effect"><img src="./src/assets/img/1.png" height="50px" alt=""
+                                  srcset=""></button>
+                            </div>
+                          </div>
+                          <div class="mt-3 mb-3"><span id="resposta">-</span></div>
+                          <div>
+                            <hr />
+                          </div>
+                          <p class="mt-2">Quer nos contar detalhes?</p>
+                          <p>Quanto mais informações, mais conseguimos evoluir.</p>
+                        </div>
+                        <form action="https://api.staticforms.xyz/submit" method="post" class="mt-3">
+                          <input type="hidden" name="accessKey" value="8a6e16a7-2b30-4655-a970-cab345d74af0">
+                          <input type="hidden" value="nenhum" id="statusemoj" onclick="satisfacao(this.value)"
+                            name="$SelectEmoj"> <!-- Optional -->
+                          <textarea typ="text" maxlength="430" name="message" class="form-control"
+                            placeholder="Escrever..." id="exampleFormControlTextarea1" rows="3"
+                            style="background-color: #121214; color: white;" required></textarea>
+                          <input type="hidden" name="redirectTo" value="http://localhost:5500/index.html">
+                          <div class="d-grid gap-2 col-6 mx-auto mt-5 mb-4">
+                            <button class="btn btn-primary" type="submit" value="Submit">ENVIAR FEEDBACK</button>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg" id="stapfour" style="display: none;">
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Sobre mim</h1>
+                </p>
+                <p
+                  style="color: #c5c5c5dc; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: justify;">
+                  Sou Analista de Infraestrutura, e atualmente estou em transição para área de front-end. Trabalhei em algumas empresas como: <a href="">Banco Cruzeiro do Sul</a>, <a href="https://www.dell.com">Dell</a> e estou atualmente como Analista de Sistema na <a href="http://www.caritascl.org.br">Caritas Campo Limpo</a>. Sou uma pessoa divertida, e tento sempre escutar o que as outras pessoas tem a
+                  falar. Respeito a trajetória de cada um, e vejo que as diferenças devem ser usadas como forma de somar
+                  e não dividir.
+                </p>
+                <p
+                  style="color: #c5c5c5dc; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: justify;">
+                 Participei como desenvolvedor front-end voluntário na empresa <a href="https://teamvideos.com.br">teamvideos.com.br</a> realizando e projetando novas funcionalidades para a plataforma de acordo com o escopo do projeto. Participo ativamente como Analista de Sistemas na <a href="#">Paróquia São Sebastião</a> dando manutenção preventiva em equipamentos de informática doados para Paróquia. 
+                </p>
+                <p
+                  style="color: #c5c5c5dc; font-weight: 100; font-family: Verdana, Geneva, Tahoma, sans-serif; text-align: justify;">
+                  CEO - <a href="#">podeserbrasil.com.br</a>
+                </p>
+                <p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-lg-start justify-content-md-center"
+                  style="color: white;">
+                  <div class="row row-cols-lg-4 row-cols-sm-2">
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3 effects-btn-bc"
+                        style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2">
+                          <ion-icon name="logo-github"></ion-icon>
+                        </div>
+                        <div><a href="https://github.com/danielrodrigues-dv" target="_blank"
+                            style="color: white;">GitHub</a></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3 effects-btn-bc"
+                        style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2">
+                          <ion-icon name="logo-linkedin"></ion-icon>
+                        </div>
+                        <div><a href="https://www.linkedin.com/in/daniel-rodrigues-dv" target="_blank"
+                            style="color: white;">Linkedin</a></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3 effects-btn-bc"
+                        style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2">
+                          <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+                        <div><a href="https://github.com/danielrodrigues-dv" target="_blank"
+                            style="color: white;">E-mail</a></div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="d-flex justify-content-center mb-3 mt-3 effects-btn-bc"
+                        style="background-color: #29292e; padding-left:14px; padding-right:14px; padding-top:10px; padding-bottom:10px;border-radius: 6px; display: flex;">
+                        <div class="d-flex align-items-center pe-2">
+                          <ion-icon name="logo-discord"></ion-icon>
+                        </div>
+                        <div><a href="https://github.com/danielrodrigues-dv" target="_blank"
+                            style="color: white;">Discord</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="card" style="background-color: #202024;">
+            <div class="card-body">
+              <div class="container">
+                <p class="card-text">
+                <h1 style="font-size: 25px; color: white;">Tecnologias</h1>
+                <p class="mt-2">
+                <h6 style="color: rgb(161, 159, 159);">Tenho experiência</h6>
+                </p>
+                </p>
+                <div class="d-flex d-grid gap-1 justify-content-around">
+                  <div id="icon-typescript"><img src="./src/assets/img/icons/icons8-typescript-48.svg" height="60px"
+                      width="100%" alt="icon-typescript" style="border-radius: 150px;" data-bs-toggle="tooltip"
+                      data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="TypScript"></div>
+                  <div id="icon-javascript" style="color: white;"><img
+                      src="./src/assets/img/icons/icons8-javascript-48.svg" height="60px" width="100%" alt="icon-javascript"
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="JavaScript"></div>
+                  <div id="icon-angular"><img src="./src/assets/img/icons/icons8-angularjs-48.svg" height="60px"
+                      width="100%" alt="" srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip"
+                      data-bs-placement="top" data-bs-custom-class="custom-tooltip" data-bs-title="Angular"></div>
+                  <div id="icon-html"><img src="./src/assets/img/icons/icons8-html5-48.svg" height="60px" width="100%"
+                      alt="" srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="HTML5"></div>
+                  <div id="icon-react"><img src="./src/assets/img/icons/icons8-react-48.svg" height="60px" width="100%"
+                      alt="" srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="React"></div>
+                  <div id="icon-python">
+                    <img src="./src/assets/img/icons/icons8-python-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Python">
+                  </div>
+                  <div id="icon-c"><img src="./src/assets/img/icons/icons8-c-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="C"></div>
+                  <div id="icon-salenium">
+                    <img src="./src/assets/img/icons/icons8-selenium-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Selenium">
+                  </div>
+                  <div id="icon-sass">
+                    <img src="./src/assets/img/icons/icons8-sass-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Sass">
+                  </div>
+                  <div id="icon-docker">
+                    <img src="./src/assets/img/icons/icons8-docker-48.svg" height="60px" width="100%" alt="" srcset=""
+                      style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Docker">
+                  </div>
+                  <div id="icon-bootstrap">
+                    <img src="./src/assets/img/icons/icons8-bootstrap-48.svg" height="60px" width="100%" alt=""
+                      srcset="" style="border-radius: 150px;" data-bs-toggle="tooltip" data-bs-placement="top"
+                      data-bs-custom-class="custom-tooltip" data-bs-title="Bootstrap">
+                  </div>
+                </div>
+                <br>
+
+                <!--Inicio Modal-->
+                <div class="modal fade" id="exampleModalScrollable" tabindex="-1"
+                  aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable modal-lg">
+                    <div class="modal-content" style="background-color: rgb(27, 27, 27);">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalScrollableTitle" style="color: white;">Tecnologias</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                          aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="text-center"><input placeholder="Digite uma tecnologia" type="text"
+                            id="filtro-nome" /></div>
+                        <br>
+                        <table id="lista">
+                          <thead style="display:none">
+                            <tr>
+                              <th>Código</th>
+                              <th>result</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td style="display:none">Typscript</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-typescript-48.svg" height="50px"
+                                      width="100%" alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="TypScript"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="display:none">Angular</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-angularjs-48.svg" height="50px"
+                                      width="100%" alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Angular"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">JavaScript</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-javascript-48.svg" height="50px"
+                                      width="100%" alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="JavaScript"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">HTML5</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-html5-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="HTML5"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">CSS3</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-css3-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="CSS3"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Docker</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-docker-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Docker"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Boostrap</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-bootstrap-48.svg" height="50px"
+                                      width="100%" alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Boostrap"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Sass</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-sass-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Sass"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">React</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-react-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="React"></div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Selenium</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-selenium-48.svg" height="50px"
+                                      width="100%" alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Selenium"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Jest</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-jest-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Jest"></div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">SQL</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-mysql-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="SQL"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Python</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-python-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Python"></div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Ionic</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-ionic-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Ionic"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Wordpress</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-wordpress-48.svg" height="50px"
+                                      width="100%" alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Wordpress"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="display:none">Figma</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgb(63, 62, 62);">
+                                  <div><img src="./src/assets/img/icons/icons8-figma-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Figma"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+
+                            <tr>
+                              <td style="display:none">Git</td>
+                              <td>
+                                <div class="d-flex justify-content-around align-items-center"
+                                  style="background-color: rgba(93, 93, 93, 0.218);">
+                                  <div><img src="./src/assets/img/icons/icons8-git-48.svg" height="50px" width="100%"
+                                      alt="icon-typescript" srcset="" style="border-radius: 150px;"
+                                      data-bs-toggle="tooltip" data-bs-placement="top"
+                                      data-bs-custom-class="custom-tooltip" data-bs-title="Git"></div>
+                                  <div><input class="form-check-input" type="radio" checked>
+                                    <label style="color: #e1e1e1;">Experiente</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Estudando</label>
+                                  </div>
+                                  <div><input class="form-check-input" type="radio" disabled>
+                                    <label style="color: #e1e1e1;">Interesses</label>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <div style="color: rgb(255, 255, 255);">
+                          <hr />
+                        </div>
+
+                        <div class="container">
+                          <p>
+                          <h3 style="font-size: 25px; color:white;">Relevância</h3>
+                          </p>
+                          <div class="d-flex row row-cols-lg-3 row-cols-sm-1 mb-3"
+                            style="color:white">
+                            <div class="p-2">
+                              <p style="color: #0d6efd;"><strong>Experiente</strong></p>
+                              <span style="font-size: 14px; text-align: center;">Executou tarefas/projetos de maneira
+                                profissional.</span>
+                            </div>
+                            <div class="p-2">
+                              <p style="color: #0d6efd;"><strong>Estudando</strong></p>
+                              <span style="font-size: 14px; text-align: center;">Estudando a tecnologia, não
+                                necessariamente executou em algum projeto.</span>
+                            </div>
+                            <div class="p-2">
+                              <p style="color: #0d6efd;"><strong>Intereses</strong></p>
+                              <span style="font-size: 14px; text-align: center;">Tem interesse na tecnologia mas ainda
+                                não iniciou os estudos.</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Final Modal-->
+
+              </div>
+            </div>
+          </div>
+          <div class="effects-button" style="position: relative; z-index: 12; text-align: center; margin-top: -15px;">
+            <button class="effects-btn-bc" type="button" data-bs-toggle="modal" data-bs-target="#exampleModalScrollable"
+              style="background-color: #2e2e2e42; list-style: none; height: 30px; border-radius: 3px; padding-left: 5px; padding-right: 5px;">
+              <li>
+                <ion-icon name="chevron-down-outline" style="color: #0d6efd; font-size: 22px;"></ion-icon>
+              </li>
+              <li style="margin-top: -18px;">
+                <ion-icon name="chevron-down-outline" style="color: #0d6efd; font-size: 22px;"></ion-icon>
+              </li>
+            </button>
+          </div>
+          <div class="col">
+            <div class="row row-cols-lg-1 row-cols-sm-1 row-cols-mb-1 text-center" style="color:white">
+              <div class="col mt-2 mb-4">
+                <div class="card" style="background-color: #202024;">
+                  <div class="card-body">
+                    <div class="container">
+                      <div class="d-flex justify-content-center gap-3">
+                        <div><a href="./projetos.html">TOTAL PROJETOS <span style="padding-left: 20px; color: white;"> 4</span></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Fim perfil-->
+
+        <canvas id="canvas"></canvas>
+      </div>
+    </div>
+    
+    <div style="margin-top: 200px; display: none;" id="stapsix"></div>
+
+  </main>
+  <script>
+    // Initialize tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    // Final tooltips
+
+
+    //Inicio pesquisa modal
+    var filtro = document.getElementById('filtro-nome');
+    var tabela = document.getElementById('lista');
+    filtro.onkeyup = function() {
+      var nomeFiltro = filtro.value.toLowerCase();
+      for (var i = 1; i < tabela.rows.length; i++) {
+        var conteudoCelula = tabela.rows[i].cells[0].innerText;
+        var corresponde = conteudoCelula.toLowerCase().indexOf(nomeFiltro) >= 0;
+        tabela.rows[i].style.display = corresponde ? '' : 'none';
+      }
+    };
+    //Final pesquisa modal
+
+    let resizeReset = function () {
+      w = canvasBody.width = window.innerWidth;
+      h = canvasBody.height = window.innerHeight;
+    }
+
+    const opts = {
+      particleColor: "rgb(200,200,200)",
+      lineColor: "rgb(200,200,200)",
+      particleAmount: 4,
+      defaultSpeed: 1,
+      variantSpeed: 1,
+      defaultRadius: 2,
+      variantRadius: 2,
+      linkRadius: 200,
+    };
+
+    window.addEventListener("resize", function () {
+      deBouncer();
+    });
+
+    let deBouncer = function () {
+      clearTimeout(tid);
+      tid = setTimeout(function () {
+        resizeReset();
+      }, delay);
+    };
+
+    let checkDistance = function (x1, y1, x2, y2) {
+      return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+    };
+
+    let linkPoints = function (point1, hubs) {
+      for (let i = 0; i < hubs.length; i++) {
+        let distance = checkDistance(point1.x, point1.y, hubs[i].x, hubs[i].y);
+        let opacity = 1 - distance / opts.linkRadius;
+        if (opacity > 0) {
+          drawArea.lineWidth = 0.5;
+          drawArea.strokeStyle = `rgba(${rgb[0]}, ${rgb[1]}, ${rgb[2]}, ${opacity})`;
+          drawArea.beginPath();
+          drawArea.moveTo(point1.x, point1.y);
+          drawArea.lineTo(hubs[i].x, hubs[i].y);
+          drawArea.closePath();
+          drawArea.stroke();
+        }
+      }
+    }
+
+    Particle = function (xPos, yPos) {
+      this.x = Math.random() * w;
+      this.y = Math.random() * h;
+      this.speed = opts.defaultSpeed + Math.random() * opts.variantSpeed;
+      this.directionAngle = Math.floor(Math.random() * 360);
+      this.color = opts.particleColor;
+      this.radius = opts.defaultRadius + Math.random() * opts.variantRadius;
+      this.vector = {
+        x: Math.cos(this.directionAngle) * this.speed,
+        y: Math.sin(this.directionAngle) * this.speed
+      };
+      this.update = function () {
+        this.border();
+        this.x += this.vector.x;
+        this.y += this.vector.y;
+      };
+      this.border = function () {
+        if (this.x >= w || this.x <= 0) {
+          this.vector.x *= -1;
+        }
+        if (this.y >= h || this.y <= 0) {
+          this.vector.y *= -1;
+        }
+        if (this.x > w) this.x = w;
+        if (this.y > h) this.y = h;
+        if (this.x < 0) this.x = 0;
+        if (this.y < 0) this.y = 0;
+      };
+      this.draw = function () {
+        drawArea.beginPath();
+        drawArea.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        drawArea.closePath();
+        drawArea.fillStyle = this.color;
+        drawArea.fill();
+      };
+    };
+
+    function setup() {
+      particles = [];
+      resizeReset();
+      for (let i = 0; i < opts.particleAmount; i++) {
+        particles.push(new Particle());
+      }
+      window.requestAnimationFrame(loop);
+    }
+
+    function loop() {
+      window.requestAnimationFrame(loop);
+      drawArea.clearRect(0, 0, w, h);
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        particles[i].draw();
+      }
+      for (let i = 0; i < particles.length; i++) {
+        linkPoints(particles[i], particles);
+      }
+    }
+
+    const canvasBody = document.getElementById("canvas"),
+      drawArea = canvasBody.getContext("2d");
+    let delay = 200, tid,
+      rgb = opts.lineColor.match(/\d+/g);
+    resizeReset();
+    setup();
+  </script>
+  <!--Fundo animado-->
+
+  <!--Bootstrap 5.2-->
+  <script src="./src/assets/js/global.js"></script>
+  <script src="./src/assets/js/boostrap/popper.min.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--Bootstrap 5.2-->
+
+</body>
+
+</html>
